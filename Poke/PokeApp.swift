@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct PokeApp: App {
+	
+	@AppStorage("isFirstLaunch") private var isFirstLaunch: Bool = true
+	
     var body: some Scene {
-        WindowGroup {
+		WindowGroup {
             ContentView()
         }
+		.modelContainer(ExamContainer.create(shouldCreateDefaults: &isFirstLaunch))
     }
 }
