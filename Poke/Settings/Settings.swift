@@ -8,16 +8,20 @@
 import Foundation
 
 enum Settings {
-	case ExcludeIntimateExams, EnableReminders, ReminderRepeatTime
+	case HideIntimateExams, EnableReminders, RemindEvery, RemindAtTime, RemindOnDay
 	
 	var key: String {
 		return switch self {
-		case .ExcludeIntimateExams:
+		case .HideIntimateExams:
 			"settingExcludeIntimateExams"
 		case .EnableReminders:
 			"settingEnableReminders"
-		case .ReminderRepeatTime:
-			"settingNotificationRepeatTime"
+		case .RemindEvery:
+			"settingRemindEvery"
+		case .RemindAtTime:
+			"settingRemindAtDaily"
+		case .RemindOnDay:
+			"settingRemindAtWeekly"
 		}
 	}
 }

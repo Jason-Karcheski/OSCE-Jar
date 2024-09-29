@@ -10,7 +10,7 @@ import SwiftData
 
 struct ContentView: View {
 	
-	@AppStorage(Settings.ExcludeIntimateExams.key) private var excludeIntimateExams: Bool = false
+	@AppStorage(Settings.HideIntimateExams.key) private var excludeIntimateExams: Bool = false
 	@Environment(\.modelContext) private var context
 	@Query private var exam: [Exam]
 	@State private var currentExam: Exam? = nil

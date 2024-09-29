@@ -10,9 +10,11 @@ import SwiftUI
 
 struct SettingsView : View {
 	
-	@AppStorage(Settings.ExcludeIntimateExams.key) private var settingExcludeIntimateExams: Bool = false
+	@AppStorage(Settings.HideIntimateExams.key) private var settingExcludeIntimateExams: Bool = false
 	@AppStorage(Settings.EnableReminders.key) private var settingEnableReminders: Bool = false
-	@AppStorage(Settings.ReminderRepeatTime.key) private var settingReminderTiming: ReminderRepeatTiming = .Daily
+	@AppStorage(Settings.RemindEvery.key) private var settingRemindEvery: ReminderRepeatTiming = .Daily
+	@AppStorage(Settings.RemindAtTime.key) private var settingRemindAtTime: Date = Date()
+	@AppStorage(Settings.RemindOnDay.key) private var settingRemindOnDay: Days = .Mon
 	
 	var body: some View {
 		List {
@@ -24,20 +26,31 @@ struct SettingsView : View {
 				Toggle("Enable reminders", isOn: $settingEnableReminders)
 				
 				if settingEnableReminders {
-					Picker("Reminder timing", selection: $settingReminderTiming) {
-						Text("Daily").tag(ReminderRepeatTiming.Daily)
-						Text("Weekly").tag(ReminderRepeatTiming.Weekly)
+					Picker("Remind every", selection: $settingRemindEvery) {
+						Text("Day").tag(ReminderRepeatTiming.Daily)
+						Text("Week").tag(ReminderRepeatTiming.Weekly)
+					}
+					
+					DatePicker(
+						"Time",
+						selection: $settingRemindAtTime,
+						displayedComponents: .hourAndMinute
+					)
+					
+					if settingRemindEvery == .Weekly {
+						Picker("Day", selection: $settingRemindOnDay) {
+							Text("Monday").tag(Days.Mon)
+							Text("Tuesday").tag(Days.Tue)
+							Text("Wednesday").tag(Days.Wed)
+							Text("Thursday").tag(Days.Thu)
+							Text("Friday").tag(Days.Fri)
+							Text("Saturday").tag(Days.Sat)
+							Text("Sunday").tag(Days.Sun)
+						}
 					}
 				}
 			}
 		}
 		.navigationTitle("Settings")
-	}
-	
-}
-
-
-enum ReminderRepeatTiming: String, CaseIterable, Identifiable {
-	case Daily, Weekly
-	var id: Self { self }
+	}	
 }
