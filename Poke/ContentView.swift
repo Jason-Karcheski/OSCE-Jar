@@ -13,78 +13,53 @@ struct ContentView: View {
 	@Environment(\.modelContext) private var context
 	@Query private var exam: [Exam]
 	@State private var currentExam: Exam? = nil
-	@State private var presentWebView: Bool = false
-	@State private var presentSettings: Bool = false
-	@State private var settingExcludeIntrusiveExams = false
+	@State private var navigationPath = NavigationPath()
+	@State private var isFirstShow: Bool = true
 	
     var body: some View {
-		NavigationStack {
-			VStack {
-				Spacer()
-				
-				Text(currentExam?.name ?? "No Exam Found")
-					.font(.largeTitle)
-					.multilineTextAlignment(.center)
-					.padding()
-				
-				Spacer()
-				
-				HStack {
-					Button {
-						presentWebView = true
-					} label: {
-						HStack {
-							Image(systemName: "book")
-							Text("Geeky Medics")
+		NavigationStack(path: $navigationPath) {
+			ProgressView()
+				.frame(
+					width: .infinity,
+					height: .infinity,
+					alignment: .center
+				)
+				.navigationDestination(for: Route.self) { route in
+					switch route {
+					case .Settings:
+						SettingsView()
+					case .Web:
+						AppWebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
+							.navigationTitle(currentExam?.name ?? "Geeky Medics")
+							.navigationBarTitleDisplayMode(.inline)
+							.ignoresSafeArea()
+					default:
+						ExamView(
+							navigationPath: $navigationPath,
+							currentExam: currentExam,
+							updateExam: { updateCurrentExam() }
+						)
+						.navigationBarBackButtonHidden()
+						.onAppear {
+							if isFirstShow {
+								updateCurrentExam()
+							}
+							
+							isFirstShow = false
 						}
 					}
-					.buttonStyle(.bordered)
-					
-					Button {
-						updateCurrentExam()
-					} label: {
-						HStack {
-							Image(systemName: "arrow.clockwise")
-							Text("Refresh")
-						}
-					}
-					.buttonStyle(.borderedProminent)
 				}
-			}
-			.navigationTitle("OSCE Jar")
-			.navigationBarTitleDisplayMode(.inline)
-			.toolbar {
-				Button {
-					presentSettings = true
-				} label: {
-					Image(systemName: "gear")
-				}
-
-			}
 		}
-		.onAppear { updateCurrentExam() }
-		.sheet(isPresented: $presentWebView) {
-			VStack {
-				Text(currentExam?.name ?? "Geeky Medics")
-					.padding()
-				
-				WebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
-					.ignoresSafeArea()
-			}
+		.onAppear {
+			navigationPath.append(Route.Root)
 		}
-		.sheet(isPresented: $presentSettings) {
-			VStack {
-				Text("Settings")
-					.padding()
-				
-				Toggle("Exclude intimate exams", isOn: $settingExcludeIntrusiveExams)
-			}
-			.padding()
-		}
+		.tint(.green)
     }
 	
 	func updateCurrentExam() {
-		currentExam = exam.filter { $0.id != currentExam?.id }.randomElement()
+		currentExam = exam
+			.filter { $0.id != currentExam?.id }
+			.randomElement()
 	}
 }
 

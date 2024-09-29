@@ -16,9 +16,7 @@ struct ExamJsonDecoder {
 	static func decode(from fileName: String) -> [ExamResponse] {
 		guard let url = Bundle.main.url(forResource: fileName, withExtension: "json"),
 			  let data = try? Data(contentsOf: url),
-			  let exams = try? JSONDecoder().decode([ExamResponse].self, from: data) else {
-			return []
-		}
+			  let exams = try? JSONDecoder().decode([ExamResponse].self, from: data) else { return [] }
 		
 		return exams
 	}
