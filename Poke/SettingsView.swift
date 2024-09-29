@@ -11,12 +11,10 @@ import SwiftUI
 struct SettingsView : View {
 	
 	@AppStorage(Settings.ExcludeIntimateExams.key) private var settingExcludeIntimateExams: Bool = false
-	@AppStorage(Settings.EnableReminders.key) private var settingEnableNotifications: Bool = false
 	
 	var body: some View {
 		VStack {
 			Toggle("Exclude intimate exams", isOn: $settingExcludeIntimateExams)
-			Toggle("Enable reminders", isOn: $settingEnableNotifications)
 			
 			Spacer()
 		}

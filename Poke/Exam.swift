@@ -13,11 +13,13 @@ class Exam {
 	@Attribute(.unique) private(set) var id: String
 	private(set) var name: String
 	private(set) var geekyMedicsLink: String
+	private(set) var isIntimate: Bool
 	
-	init(name: String, geekyMedicsLink: String) {
+	init(name: String, geekyMedicsLink: String, isIntimate: Bool) {
 		self.id = UUID().uuidString
 		self.name = name
 		self.geekyMedicsLink = geekyMedicsLink
+		self.isIntimate = isIntimate
 	}
 }
 

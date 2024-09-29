@@ -1,182 +1,227 @@
 [
 	{
 		"name": "Cardiovascular Examination",
-		"geekyMedicsLink": "https://geekymedics.com/cardiovascular-examination-2/"
+		"geekyMedicsLink": "https://geekymedics.com/cardiovascular-examination-2/",
+		"isIntimate": false
 	},
 	{
 		"name": "Lying and Standing Blood Pressure",
-		"geekyMedicsLink": "https://geekymedics.com/lying-and-standing-blood-pressure-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/lying-and-standing-blood-pressure-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Hydration Status Assessment",
-		"geekyMedicsLink": "https://geekymedics.com/hydration-status-assessment-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/hydration-status-assessment-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Respiratory Examination",
-		"geekyMedicsLink": "https://geekymedics.com/respiratory-examination-2/"
+		"geekyMedicsLink": "https://geekymedics.com/respiratory-examination-2/",
+		"isIntimate": false
 	},
 	{
 		"name": "Inhaler Technique",
-		"geekyMedicsLink": "https://geekymedics.com/inhaler-technique-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/inhaler-technique-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Peak Expiratory Flow Rate (PEFR) Measurement",
-		"geekyMedicsLink": "https://geekymedics.com/peak-expiratory-flow-rate-pefr/"
+		"geekyMedicsLink": "https://geekymedics.com/peak-expiratory-flow-rate-pefr/",
+		"isIntimate": false
 	},
 	{
 		"name": "Rectal Examination (PR)",
-		"geekyMedicsLink": "https://geekymedics.com/rectal-examination-pr/"
+		"geekyMedicsLink": "https://geekymedics.com/rectal-examination-pr/",
+		"isIntimate": true
 	},
 	{
 		"name": "Stoma Examination",
-		"geekyMedicsLink": "https://geekymedics.com/stoma-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/stoma-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Hernia Examination",
-		"geekyMedicsLink": "https://geekymedics.com/hernia-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/hernia-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Ankle and Foot Examination",
-		"geekyMedicsLink": "https://geekymedics.com/ankle-and-foot-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/ankle-and-foot-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Elbow Examination",
-		"geekyMedicsLink": "https://geekymedics.com/elbow-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/elbow-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "GALS Examination",
-		"geekyMedicsLink": "https://geekymedics.com/gals-assessment/"
+		"geekyMedicsLink": "https://geekymedics.com/gals-assessment/",
+		"isIntimate": false
 	},
 	{
 		"name": "Hand and Wrist Examination",
-		"geekyMedicsLink": "https://geekymedics.com/hand-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/hand-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Knee Examination",
-		"geekyMedicsLink": "https://geekymedics.com/knee-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/knee-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Shoulder Examination",
-		"geekyMedicsLink": "https://geekymedics.com/shoulder-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/shoulder-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Hip Examination",
-		"geekyMedicsLink": "https://geekymedics.com/hip-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/hip-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Spine Examination",
-		"geekyMedicsLink": "https://geekymedics.com/spine-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/spine-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Fundoscopy (Opthalmoscopy)",
-		"geekyMedicsLink": "https://geekymedics.com/fundoscopy-ophthalmoscopy-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/fundoscopy-ophthalmoscopy-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Cerebellar Examination",
-		"geekyMedicsLink": "https://geekymedics.com/cerebellar-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/cerebellar-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Cranial Nerve Examination",
-		"geekyMedicsLink": "https://geekymedics.com/cranial-nerve-exam/"
+		"geekyMedicsLink": "https://geekymedics.com/cranial-nerve-exam/",
+		"isIntimate": false
 	},
 	{
 		"name": "Lower Limb Neurological Examination",
-		"geekyMedicsLink": "https://geekymedics.com/lower-limb-neurological-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/lower-limb-neurological-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Diabetic Foot Examination",
-		"geekyMedicsLink": "https://geekymedics.com/diabetic-foot-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/diabetic-foot-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Thyroid Status Examination",
-		"geekyMedicsLink": "https://geekymedics.com/thyroid-status-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/thyroid-status-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Vaginal Swabs",
-		"geekyMedicsLink": "https://geekymedics.com/vaginal-swabs-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/vaginal-swabs-osce-guide/",
+		"isIntimate": true
 	},
 	{
 		"name": "Speculum Examination",
-		"geekyMedicsLink": "https://geekymedics.com/speculum-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/speculum-examination-osce-guide/",
+		"isIntimate": true
 	},
 	{
 		"name": "Bimanual Vaginal Examination (PV)",
-		"geekyMedicsLink": "https://geekymedics.com/bimanual-vaginal-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/bimanual-vaginal-examination/",
+		"isIntimate": true
 	},
 	{
 		"name": "Obstetric Abdominal Examination",
-		"geekyMedicsLink": "https://geekymedics.com/obstetric-abdominal-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/obstetric-abdominal-examination/",
+		"isIntimate": true
 	},
 	{
 		"name": "The Head Impulse, Nystagmus, Test of Skew (HINTS) Examination",
-		"geekyMedicsLink": "https://geekymedics.com/the-head-impulse-nystagmus-test-of-skew-hints-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/the-head-impulse-nystagmus-test-of-skew-hints-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Oral Cavity Examination",
-		"geekyMedicsLink": "https://geekymedics.com/oral-cavity-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/oral-cavity-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Dix-Hallpike Test and Epley Manoeuvre",
-		"geekyMedicsLink": "https://geekymedics.com/dix-hallpike-and-epley-manoeuvres-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/dix-hallpike-and-epley-manoeuvres-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Neck Lump Examination",
-		"geekyMedicsLink": "https://geekymedics.com/neck-lump-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/neck-lump-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Nasal Examination",
-		"geekyMedicsLink": "https://geekymedics.com/nasal-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/nasal-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Hearing Assessment and Otoscopy",
-		"geekyMedicsLink": "https://geekymedics.com/hearing-ear-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/hearing-ear-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Pigmented Skin Lesion Examination",
-		"geekyMedicsLink": "https://geekymedics.com/pigmented-skin-lesion-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/pigmented-skin-lesion-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Death Confirmation",
-		"geekyMedicsLink": "https://geekymedics.com/death-confirmation/"
+		"geekyMedicsLink": "https://geekymedics.com/death-confirmation/",
+		"isIntimate": false
 	},
 	{
 		"name": "Deep  Vein Thrombosis Examination",
-		"geekyMedicsLink": "https://geekymedics.com/deep-vein-thrombosis-dvt-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/deep-vein-thrombosis-dvt-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Clinical Signs of The Hands",
-		"geekyMedicsLink": "https://geekymedics.com/clinical-signs-hands/"
+		"geekyMedicsLink": "https://geekymedics.com/clinical-signs-hands/",
+		"isIntimate": false
 	},
 	{
 		"name": "Renal System Examination",
-		"geekyMedicsLink": "https://geekymedics.com/renal-system-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/renal-system-examination-osce-guide/",
+		"isIntimate": false
 	},
 	{
 		"name": "Testicular Examination",
-		"geekyMedicsLink": "https://geekymedics.com/testicular-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/testicular-examination-osce-guide/",
+		"isIntimate": true
 	},
 	{
 		"name": "Breast Examination",
-		"geekyMedicsLink": "https://geekymedics.com/breast-examination-osce-guide/"
+		"geekyMedicsLink": "https://geekymedics.com/breast-examination-osce-guide/",
+		"isIntimate": true
 	},
 	{
 		"name": "Peripheral Vasular Examination",
-		"geekyMedicsLink": "https://geekymedics.com/peripheral-vascular-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/peripheral-vascular-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Developmental Milestones",
-		"geekyMedicsLink": "https://geekymedics.com/developmental-milestones/"
+		"geekyMedicsLink": "https://geekymedics.com/developmental-milestones/",
+		"isIntimate": false
 	},
 	{
 		"name": "Abdominal Examination",
-		"geekyMedicsLink": "https://geekymedics.com/abdominal-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/abdominal-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Upper Limb Neurological Examination",
-		"geekyMedicsLink": "https://geekymedics.com/upper-limb-neurological-examination/"
+		"geekyMedicsLink": "https://geekymedics.com/upper-limb-neurological-examination/",
+		"isIntimate": false
 	},
 	{
 		"name": "Newborn Baby Assessment (NIPE)",
-		"geekyMedicsLink": "https://geekymedics.com/newborn-baby-assessment/"
+		"geekyMedicsLink": "https://geekymedics.com/newborn-baby-assessment/",
+		"isIntimate": false
 	}
 ]

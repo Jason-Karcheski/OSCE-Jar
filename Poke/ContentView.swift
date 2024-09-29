@@ -15,6 +15,7 @@ struct ContentView: View {
 	@State private var currentExam: Exam? = nil
 	@State private var navigationPath = NavigationPath()
 	@State private var isFirstShow: Bool = true
+	@AppStorage(Settings.ExcludeIntimateExams.key) private var excludeIntimateExams: Bool = false
 	
     var body: some View {
 		NavigationStack(path: $navigationPath) {
@@ -57,9 +58,16 @@ struct ContentView: View {
     }
 	
 	func updateCurrentExam() {
-		currentExam = exam
-			.filter { $0.id != currentExam?.id }
-			.randomElement()
+		if excludeIntimateExams {
+			currentExam = exam
+				.filter { $0.id != currentExam?.id }
+				.filter { $0.isIntimate == false }
+				.randomElement()
+		} else {
+			currentExam = exam
+				.filter { $0.id != currentExam?.id }
+				.randomElement()
+		}
 	}
 }
 
