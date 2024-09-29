@@ -4,60 +4,16 @@
 		"geekyMedicsLink": "https://geekymedics.com/cardiovascular-examination-2/"
 	},
 	{
-		"name": "Peripheral Vascular Examination",
-		"geekyMedicsLink": "https://geekymedics.com/peripheral-vascular-examination/"
-	},
-	{
 		"name": "Lying and Standing Blood Pressure",
 		"geekyMedicsLink": "https://geekymedics.com/lying-and-standing-blood-pressure-osce-guide/"
-	},
-	{
-		"name": "Heart Murmurs",
-		"geekyMedicsLink": "https://geekymedics.com/heart-murmurs/"
-	},
-	{
-		"name": "Cardiothoracic Incisions",
-		"geekyMedicsLink": "https://geekymedics.com/cardiothoracic-incisions/"
-	},
-	{
-		"name": "Jugular Venous Pressure",
-		"geekyMedicsLink": "https://geekymedics.com/jugular-venous-pressure-jvp/"
-	},
-	{
-		"name": "Paediatric Cardiovasular Examination",
-		"geekyMedicsLink": "https://geekymedics.com/paediatric-cardiovascular-examination-osce-guide/"
-	},
-	{
-		"name": "Basic Life Support (BLS)",
-		"geekyMedicsLink": "https://geekymedics.com/basic-life-support-bls-osce-guide/"
-	},
-	{
-		"name": "Aortic Stenosis Examination",
-		"geekyMedicsLink": "https://geekymedics.com/focused-examination-for-aortic-stenosis-osce-guide/"
 	},
 	{
 		"name": "Hydration Status Assessment",
 		"geekyMedicsLink": "https://geekymedics.com/hydration-status-assessment-osce-guide/"
 	},
 	{
-		"name": "Varicose Vein Examination",
-		"geekyMedicsLink": "https://geekymedics.com/hydration-status-assessment-osce-guide/"
-	},
-	{
-		"name": "Ankle-Brachial Pressure Index (ABPI) Measurement",
-		"geekyMedicsLink": "https://geekymedics.com/ankle-brachial-pressure-index-abpi-measurement-osce-guide/"
-	},
-	{
-		"name": "Blood Pressure Measurement",
-		"geekyMedicsLink": "https://geekymedics.com/blood-pressure-measurement/"
-	},
-	{
 		"name": "Respiratory Examination",
 		"geekyMedicsLink": "https://geekymedics.com/respiratory-examination-2/"
-	},
-	{
-		"name": "Paediatric Respiratory Examination",
-		"geekyMedicsLink": "https://geekymedics.com/paediatric-respiratory-examination-osce-guide/"
 	},
 	{
 		"name": "Inhaler Technique",
@@ -72,27 +28,155 @@
 		"geekyMedicsLink": "https://geekymedics.com/rectal-examination-pr/"
 	},
 	{
-		"name": "Abdominal Examination",
-		"geekyMedicsLink": "https://geekymedics.com/abdominal-examination/"
-	},
-	{
-		"name": "Paediatric Abdominal Examination",
-		"geekyMedicsLink": "https://geekymedics.com/paediatric-abdominal-examination-osce-guide/"
+		"name": "Stoma Examination",
+		"geekyMedicsLink": "https://geekymedics.com/stoma-examination-osce-guide/"
 	},
 	{
 		"name": "Hernia Examination",
 		"geekyMedicsLink": "https://geekymedics.com/hernia-examination-osce-guide/"
 	},
 	{
-		"name": "Lymphoreticular Examination",
-		"geekyMedicsLink": "https://geekymedics.com/lymphoreticular-examination-osce-guide/"
+		"name": "Ankle and Foot Examination",
+		"geekyMedicsLink": "https://geekymedics.com/ankle-and-foot-examination/"
 	},
 	{
-		"name": "Stoma Examination",
-		"geekyMedicsLink": "https://geekymedics.com/stoma-examination-osce-guide/"
+		"name": "Elbow Examination",
+		"geekyMedicsLink": "https://geekymedics.com/elbow-examination/"
 	},
 	{
-		"name": "Nasogastric (NG) Tube Insertion",
-		"geekyMedicsLink": "https://geekymedics.com/nasogastric-ng-tube-insertion/"
+		"name": "GALS Examination",
+		"geekyMedicsLink": "https://geekymedics.com/gals-assessment/"
+	},
+	{
+		"name": "Hand and Wrist Examination",
+		"geekyMedicsLink": "https://geekymedics.com/hand-examination/"
+	},
+	{
+		"name": "Knee Examination",
+		"geekyMedicsLink": "https://geekymedics.com/knee-examination/"
+	},
+	{
+		"name": "Shoulder Examination",
+		"geekyMedicsLink": "https://geekymedics.com/shoulder-examination/"
+	},
+	{
+		"name": "Hip Examination",
+		"geekyMedicsLink": "https://geekymedics.com/hip-examination/"
+	},
+	{
+		"name": "Spine Examination",
+		"geekyMedicsLink": "https://geekymedics.com/spine-examination/"
+	},
+	{
+		"name": "Fundoscopy (Opthalmoscopy)",
+		"geekyMedicsLink": "https://geekymedics.com/fundoscopy-ophthalmoscopy-osce-guide/"
+	},
+	{
+		"name": "Cerebellar Examination",
+		"geekyMedicsLink": "https://geekymedics.com/cerebellar-examination-osce-guide/"
+	},
+	{
+		"name": "Cranial Nerve Examination",
+		"geekyMedicsLink": "https://geekymedics.com/cranial-nerve-exam/"
+	},
+	{
+		"name": "Lower Limb Neurological Examination",
+		"geekyMedicsLink": "https://geekymedics.com/lower-limb-neurological-examination/"
+	},
+	{
+		"name": "Diabetic Foot Examination",
+		"geekyMedicsLink": "https://geekymedics.com/diabetic-foot-examination-osce-guide/"
+	},
+	{
+		"name": "Thyroid Status Examination",
+		"geekyMedicsLink": "https://geekymedics.com/thyroid-status-examination/"
+	},
+	{
+		"name": "Vaginal Swabs",
+		"geekyMedicsLink": "https://geekymedics.com/vaginal-swabs-osce-guide/"
+	},
+	{
+		"name": "Speculum Examination",
+		"geekyMedicsLink": "https://geekymedics.com/speculum-examination-osce-guide/"
+	},
+	{
+		"name": "Bimanual Vaginal Examination (PV)",
+		"geekyMedicsLink": "https://geekymedics.com/bimanual-vaginal-examination/"
+	},
+	{
+		"name": "Obstetric Abdominal Examination",
+		"geekyMedicsLink": "https://geekymedics.com/obstetric-abdominal-examination/"
+	},
+	{
+		"name": "The Head Impulse, Nystagmus, Test of Skew (HINTS) Examination",
+		"geekyMedicsLink": "https://geekymedics.com/the-head-impulse-nystagmus-test-of-skew-hints-examination/"
+	},
+	{
+		"name": "Oral Cavity Examination",
+		"geekyMedicsLink": "https://geekymedics.com/oral-cavity-examination-osce-guide/"
+	},
+	{
+		"name": "Dix-Hallpike Test and Epley Manoeuvre",
+		"geekyMedicsLink": "https://geekymedics.com/dix-hallpike-and-epley-manoeuvres-osce-guide/"
+	},
+	{
+		"name": "Neck Lump Examination",
+		"geekyMedicsLink": "https://geekymedics.com/neck-lump-examination-osce-guide/"
+	},
+	{
+		"name": "Nasal Examination",
+		"geekyMedicsLink": "https://geekymedics.com/nasal-examination-osce-guide/"
+	},
+	{
+		"name": "Hearing Assessment and Otoscopy",
+		"geekyMedicsLink": "https://geekymedics.com/hearing-ear-examination-osce-guide/"
+	},
+	{
+		"name": "Pigmented Skin Lesion Examination",
+		"geekyMedicsLink": "https://geekymedics.com/pigmented-skin-lesion-examination/"
+	},
+	{
+		"name": "Death Confirmation",
+		"geekyMedicsLink": "https://geekymedics.com/death-confirmation/"
+	},
+	{
+		"name": "Deep  Vein Thrombosis Examination",
+		"geekyMedicsLink": "https://geekymedics.com/deep-vein-thrombosis-dvt-examination-osce-guide/"
+	},
+	{
+		"name": "Clinical Signs of The Hands",
+		"geekyMedicsLink": "https://geekymedics.com/clinical-signs-hands/"
+	},
+	{
+		"name": "Renal System Examination",
+		"geekyMedicsLink": "https://geekymedics.com/renal-system-examination-osce-guide/"
+	},
+	{
+		"name": "Testicular Examination",
+		"geekyMedicsLink": "https://geekymedics.com/testicular-examination-osce-guide/"
+	},
+	{
+		"name": "Breast Examination",
+		"geekyMedicsLink": "https://geekymedics.com/breast-examination-osce-guide/"
+	},
+	{
+		"name": "Peripheral Vasular Examination",
+		"geekyMedicsLink": "https://geekymedics.com/peripheral-vascular-examination/"
+	},
+	{
+		"name": "Developmental Milestones",
+		"geekyMedicsLink": "https://geekymedics.com/developmental-milestones/"
+	},
+	{
+		"name": "Abdominal Examination",
+		"geekyMedicsLink": "https://geekymedics.com/abdominal-examination/"
+	},
+	{
+		"name": "Upper Limb Neurological Examination",
+		"geekyMedicsLink": "https://geekymedics.com/upper-limb-neurological-examination/"
+	},
+	{
+		"name": "Newborn Baby Assessment (NIPE)",
+		"geekyMedicsLink": "https://geekymedics.com/newborn-baby-assessment/"
 	}
 ]
