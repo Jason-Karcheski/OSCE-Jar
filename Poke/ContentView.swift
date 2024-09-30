@@ -26,29 +26,7 @@ struct ContentView: View {
 					alignment: .center
 				)
 				.navigationDestination(for: Route.self) { route in
-					switch route {
-					case .Settings:
-						SettingsView()
-					case .Web:
-						AppWebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
-							.navigationTitle(currentExam?.name ?? "Geeky Medics")
-							.navigationBarTitleDisplayMode(.inline)
-							.ignoresSafeArea()
-					default:
-						ExamView(
-							navigationPath: $navigationPath,
-							currentExam: currentExam,
-							updateExam: { updateCurrentExam() }
-						)
-						.navigationBarBackButtonHidden()
-						.onAppear {
-							if isFirstShow {
-								updateCurrentExam()
-							}
-							
-							isFirstShow = false
-						}
-					}
+					navigateToRoute(route)
 				}
 		}
 		.onAppear {
@@ -58,18 +36,46 @@ struct ContentView: View {
     }
 	
 	func updateCurrentExam() {
+		let examList = exam.filter { $0.id != currentExam?.id }
+		
 		let newExam = if excludeIntimateExams {
-			exam.filter { $0.id != currentExam?.id }
-				.filter { $0.isIntimate == false }
-				.randomElement()
+			examList.filter { $0.isIntimate == false }.randomElement()
 		} else {
-			exam.filter { $0.id != currentExam?.id }
-				.randomElement()
+			examList.randomElement()
 		}
 		
 		print("New Exam \n- Name: \(String(describing: newExam?.name)) \n- Geeky Medics Link: \(String(describing: newExam?.geekyMedicsLink)) \n- Intimate Exam: \(String(describing: newExam?.isIntimate))")
 		
 		currentExam = newExam
+	}
+	
+	@ViewBuilder
+	func navigateToRoute(_ route: Route) -> some View {
+		switch route {
+		case .Root:
+			ExamView(
+				navigationPath: $navigationPath,
+				currentExam: currentExam,
+				updateExam: { updateCurrentExam() }
+			)
+			.navigationBarBackButtonHidden()
+			.onAppear {
+				if isFirstShow {
+					updateCurrentExam()
+				}
+				isFirstShow = false
+			}
+		case .Settings:
+			SettingsView()
+		case .Web:
+			WebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
+				.navigationTitle(currentExam?.name ?? "Geeky Medics")
+				.modifier(WebViewStyle())
+		case .MarkScheme:
+			WebView(url: URL(string: currentExam?.markSchemeLink ?? "https://www.google.com")!)
+				.navigationTitle(currentExam?.name ?? "Geeky Medics")
+				.modifier(WebViewStyle())
+		}
 	}
 }
 
