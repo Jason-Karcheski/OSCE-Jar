@@ -9,5 +9,6 @@ import Foundation
 
 enum Days: String, CaseIterable, Identifiable {
 	case Mon, Tue, Wed, Thu, Fri, Sat, Sun
+	
 	var id: Self { self }
 }

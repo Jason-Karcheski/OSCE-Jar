@@ -13,8 +13,10 @@ struct SettingsView : View {
 	@AppStorage(Settings.HideIntimateExams.key) private var settingExcludeIntimateExams: Bool = false
 	@AppStorage(Settings.EnableReminders.key) private var settingEnableReminders: Bool = false
 	@AppStorage(Settings.RemindEvery.key) private var settingRemindEvery: ReminderRepeatTiming = .Daily
-	@AppStorage(Settings.RemindAtTime.key) private var settingRemindAtTime: Date = Date()
+	@AppStorage(Settings.RemindAtTime.key) private var settingRemindAtTime: Date = Date.now
 	@AppStorage(Settings.RemindOnDay.key) private var settingRemindOnDay: Days = .Mon
+	
+	let notificationManager = NotificationManager.instance
 	
 	var body: some View {
 		List {
@@ -31,12 +33,6 @@ struct SettingsView : View {
 						Text("Week").tag(ReminderRepeatTiming.Weekly)
 					}
 					
-					DatePicker(
-						"Time",
-						selection: $settingRemindAtTime,
-						displayedComponents: .hourAndMinute
-					)
-					
 					if settingRemindEvery == .Weekly {
 						Picker("Day", selection: $settingRemindOnDay) {
 							Text("Monday").tag(Days.Mon)
@@ -48,9 +44,28 @@ struct SettingsView : View {
 							Text("Sunday").tag(Days.Sun)
 						}
 					}
+					
+					DatePicker(
+						"Time",
+						selection: $settingRemindAtTime,
+						displayedComponents: .hourAndMinute
+					)
 				}
 			}
+			
+#if DEBUG
+			Section("Testing") {
+				Button("Schedule Notification") {
+					notificationManager.scheduleNotification()
+				}
+			}
+#endif
 		}
 		.navigationTitle("Settings")
-	}	
+		.onChange(of: settingEnableReminders) {
+			if settingEnableReminders == true {
+				notificationManager.requestAuthorisation()
+			}
+		}
+	}
 }
