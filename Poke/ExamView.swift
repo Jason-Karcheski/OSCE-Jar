@@ -52,13 +52,11 @@ struct ExamView : View {
 		.navigationTitle("OSCE Jar")
 		.navigationBarTitleDisplayMode(.inline)
 		.toolbar {
-#if DEBUG
 			Button {
 				navigationPath.append(Route.Settings)
 			} label: {
 				Image(systemName: "gear")
 			}
-#endif
 		}
 	}
 	
