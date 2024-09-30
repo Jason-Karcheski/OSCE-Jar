@@ -2,226 +2,271 @@
 	{
 		"name": "Cardiovascular Examination",
 		"geekyMedicsLink": "https://geekymedics.com/cardiovascular-examination-2/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/10/OSCE-Checklist-Cardiovascular-Examination-2.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Lying and Standing Blood Pressure",
 		"geekyMedicsLink": "https://geekymedics.com/lying-and-standing-blood-pressure-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2023/10/OSCE-Checklist-Lying-and-Standing-Blood-Pressure.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Hydration Status Assessment",
 		"geekyMedicsLink": "https://geekymedics.com/hydration-status-assessment-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/07/OSCE-Checklist-Hydration-Status-Assessment.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Respiratory Examination",
 		"geekyMedicsLink": "https://geekymedics.com/respiratory-examination-2/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Respiratory-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Inhaler Technique",
 		"geekyMedicsLink": "https://geekymedics.com/inhaler-technique-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/06/OSCE-Checklist-Inhaler-Technique.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Peak Expiratory Flow Rate (PEFR) Measurement",
 		"geekyMedicsLink": "https://geekymedics.com/peak-expiratory-flow-rate-pefr/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/10/OSCE-Checklist-Peak-Expiratory-Flow-Rate-PEFR-Measurement-copy.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Rectal Examination (PR)",
 		"geekyMedicsLink": "https://geekymedics.com/rectal-examination-pr/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/10/OSCE-Checklist-Rectal-Examination.pdf",
 		"isIntimate": true
 	},
 	{
 		"name": "Stoma Examination",
 		"geekyMedicsLink": "https://geekymedics.com/stoma-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/07/OSCE-Checklist-Stoma-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Hernia Examination",
 		"geekyMedicsLink": "https://geekymedics.com/hernia-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/07/OSCE-Checklist-Hernia-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Ankle and Foot Examination",
 		"geekyMedicsLink": "https://geekymedics.com/ankle-and-foot-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/06/OSCE-Checklist-Ankle-and-Foot-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Elbow Examination",
 		"geekyMedicsLink": "https://geekymedics.com/elbow-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Elbow-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "GALS Examination",
 		"geekyMedicsLink": "https://geekymedics.com/gals-assessment/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2023/01/GALS-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Hand and Wrist Examination",
 		"geekyMedicsLink": "https://geekymedics.com/hand-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Hand-Wrist-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Knee Examination",
 		"geekyMedicsLink": "https://geekymedics.com/knee-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Knee-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Shoulder Examination",
 		"geekyMedicsLink": "https://geekymedics.com/shoulder-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Shoulder-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Hip Examination",
 		"geekyMedicsLink": "https://geekymedics.com/hip-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Hip-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Spine Examination",
 		"geekyMedicsLink": "https://geekymedics.com/spine-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/07/OSCE-Checklist-Spine-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Fundoscopy (Opthalmoscopy)",
 		"geekyMedicsLink": "https://geekymedics.com/fundoscopy-ophthalmoscopy-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2021/04/OSCE-Checklist-Fundoscopy.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Cerebellar Examination",
 		"geekyMedicsLink": "https://geekymedics.com/cerebellar-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Cerebellar-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Cranial Nerve Examination",
 		"geekyMedicsLink": "https://geekymedics.com/cranial-nerve-exam/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/10/OSCE-Checklist-Cranial-Nerve-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Lower Limb Neurological Examination",
 		"geekyMedicsLink": "https://geekymedics.com/lower-limb-neurological-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/10/OSCE-Checklist-Lower-Limb-Neurological-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Diabetic Foot Examination",
 		"geekyMedicsLink": "https://geekymedics.com/diabetic-foot-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/06/OSCE-Checklist-Diabetic-Foot-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Thyroid Status Examination",
 		"geekyMedicsLink": "https://geekymedics.com/thyroid-status-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Thyroid-Status-Examination-1.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Vaginal Swabs",
 		"geekyMedicsLink": "https://geekymedics.com/vaginal-swabs-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2024/03/OSCE-Checklist-Vaginal-Swabs.pdf",
 		"isIntimate": true
 	},
 	{
 		"name": "Speculum Examination",
 		"geekyMedicsLink": "https://geekymedics.com/speculum-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/10/OSCE-Checklist-Speculum-Examination.pdf",
 		"isIntimate": true
 	},
 	{
 		"name": "Bimanual Vaginal Examination (PV)",
 		"geekyMedicsLink": "https://geekymedics.com/bimanual-vaginal-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Vaginal-Examination-2.pdf",
 		"isIntimate": true
 	},
 	{
 		"name": "Obstetric Abdominal Examination",
 		"geekyMedicsLink": "https://geekymedics.com/obstetric-abdominal-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Obstetric-Abdominal-Examination.pdf",
 		"isIntimate": true
 	},
 	{
 		"name": "The Head Impulse, Nystagmus, Test of Skew (HINTS) Examination",
 		"geekyMedicsLink": "https://geekymedics.com/the-head-impulse-nystagmus-test-of-skew-hints-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/07/OSCE-Checklist-HINTS-Exam.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Oral Cavity Examination",
 		"geekyMedicsLink": "https://geekymedics.com/oral-cavity-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/06/OSCE-Checklist-Oral-Cavity-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Dix-Hallpike Test and Epley Manoeuvre",
 		"geekyMedicsLink": "https://geekymedics.com/dix-hallpike-and-epley-manoeuvres-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/06/OSCE-Checklist-Dix-Hallpike-test-and-Epley-Manoeuvre.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Neck Lump Examination",
 		"geekyMedicsLink": "https://geekymedics.com/neck-lump-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/06/OSCE-Checklist-Neck-Lump-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Nasal Examination",
 		"geekyMedicsLink": "https://geekymedics.com/nasal-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/06/OSCE-Checklist-Nasal-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Hearing Assessment and Otoscopy",
 		"geekyMedicsLink": "https://geekymedics.com/hearing-ear-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/05/OSCE-Checklist-Otoscopy-and-Hearing-Assessment.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Pigmented Skin Lesion Examination",
 		"geekyMedicsLink": "https://geekymedics.com/pigmented-skin-lesion-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/07/OSCE-Checklist-Skin-Lesion-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Death Confirmation",
 		"geekyMedicsLink": "https://geekymedics.com/death-confirmation/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/06/OSCE-Checklist-Death-Confirmation.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Deep Vein Thrombosis Examination",
 		"geekyMedicsLink": "https://geekymedics.com/deep-vein-thrombosis-dvt-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2022/09/Deep-Vein-Thrombosis-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Clinical Signs of The Hands",
 		"geekyMedicsLink": "https://geekymedics.com/clinical-signs-hands/",
+		"markSchemeLink": "https://geekymedics.com/clinical-signs-hands/",
 		"isIntimate": false
 	},
 	{
 		"name": "Renal System Examination",
 		"geekyMedicsLink": "https://geekymedics.com/renal-system-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/07/OSCE-Checklist-Renal-System-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Testicular Examination",
 		"geekyMedicsLink": "https://geekymedics.com/testicular-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/07/OSCE-Checklist-Testicular-Examination.pdf",
 		"isIntimate": true
 	},
 	{
 		"name": "Breast Examination",
 		"geekyMedicsLink": "https://geekymedics.com/breast-examination-osce-guide/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Breast-Examination.pdf",
 		"isIntimate": true
 	},
 	{
-		"name": "Peripheral Vasular Examination",
+		"name": "Peripheral Vascular Examination",
 		"geekyMedicsLink": "https://geekymedics.com/peripheral-vascular-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Peripheral-Vascular-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Developmental Milestones",
 		"geekyMedicsLink": "https://geekymedics.com/developmental-milestones/",
+		"markSchemeLink": "https://geekymedics.com/developmental-milestones/",
 		"isIntimate": false
 	},
 	{
 		"name": "Abdominal Examination",
 		"geekyMedicsLink": "https://geekymedics.com/abdominal-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/09/OSCE-Checklist-Abdominal-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Upper Limb Neurological Examination",
 		"geekyMedicsLink": "https://geekymedics.com/upper-limb-neurological-examination/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2020/10/OSCE-Checklist-Upper-Limb-Neurological-Examination.pdf",
 		"isIntimate": false
 	},
 	{
 		"name": "Newborn Baby Assessment (NIPE)",
 		"geekyMedicsLink": "https://geekymedics.com/newborn-baby-assessment/",
+		"markSchemeLink": "https://geekymedics.com/wp-content/uploads/2021/03/OSCE-Checklist-Newborn-Baby-Assessment-NIPE.pdf",
 		"isIntimate": false
 	}
 ]

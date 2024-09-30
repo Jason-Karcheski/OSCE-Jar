@@ -36,13 +36,12 @@ struct ContentView: View {
     }
 	
 	func updateCurrentExam() {
+		let examList = exam.filter { $0.id != currentExam?.id }
+		
 		let newExam = if excludeIntimateExams {
-			exam.filter { $0.id != currentExam?.id }
-				.filter { $0.isIntimate == false }
-				.randomElement()
+			examList.filter { $0.isIntimate == false }.randomElement()
 		} else {
-			exam.filter { $0.id != currentExam?.id }
-				.randomElement()
+			examList.randomElement()
 		}
 		
 		print("New Exam \n- Name: \(String(describing: newExam?.name)) \n- Geeky Medics Link: \(String(describing: newExam?.geekyMedicsLink)) \n- Intimate Exam: \(String(describing: newExam?.isIntimate))")
@@ -69,15 +68,13 @@ struct ContentView: View {
 		case .Settings:
 			SettingsView()
 		case .Web:
-			AppWebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
+			WebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
 				.navigationTitle(currentExam?.name ?? "Geeky Medics")
-				.navigationBarTitleDisplayMode(.inline)
-				.ignoresSafeArea()
+				.modifier(WebViewStyle())
 		case .MarkScheme:
-			AppWebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
+			WebView(url: URL(string: currentExam?.markSchemeLink ?? "https://www.google.com")!)
 				.navigationTitle(currentExam?.name ?? "Geeky Medics")
-				.navigationBarTitleDisplayMode(.inline)
-				.ignoresSafeArea()
+				.modifier(WebViewStyle())
 		}
 	}
 }

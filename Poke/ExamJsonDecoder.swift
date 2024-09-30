@@ -10,6 +10,7 @@ import Foundation
 struct ExamResponse: Decodable {
 	let name: String
 	let geekyMedicsLink: String
+	let markSchemeLink: String
 	let isIntimate: Bool
 }
 

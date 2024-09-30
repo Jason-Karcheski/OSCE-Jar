@@ -20,7 +20,7 @@ actor ExamContainer {
 			let exams = ExamJsonDecoder.decode(from: "ExamDefaults")
 			if exams.isEmpty == false {
 				exams.forEach { item in
-					let exam = Exam(name: item.name, geekyMedicsLink: item.geekyMedicsLink, isIntimate: item.isIntimate)
+					let exam = Exam(name: item.name, geekyMedicsLink: item.geekyMedicsLink, markSchemeLink: item.markSchemeLink, isIntimate: item.isIntimate)
 					container.mainContext.insert(exam)
 				}
 			}

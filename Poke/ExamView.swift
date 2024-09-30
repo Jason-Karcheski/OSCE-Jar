@@ -71,25 +71,27 @@ private struct ButtonLayout: View {
 					}
 				} label: {
 					HStack {
-						Image(systemName: "book")
+						Image(systemName: "book.fill")
 						Text("Guide")
 							.frame(maxWidth: .infinity)
 					}
 				}
 				.buttonStyle(.bordered)
 				
-				Button {
-					if currentExam != nil {
-						navigationPath.append(Route.Web)
+				if currentExam?.geekyMedicsLink != currentExam?.markSchemeLink {
+					Button {
+						if currentExam != nil {
+							navigationPath.append(Route.MarkScheme)
+						}
+					} label: {
+						HStack {
+							Image(systemName: "checkmark.circle.fill")
+							Text("Checklist")
+								.frame(maxWidth: .infinity)
+						}
 					}
-				} label: {
-					HStack {
-						Image(systemName: "checkmark.circle")
-						Text("Mark Scheme")
-							.frame(maxWidth: .infinity)
-					}
+					.buttonStyle(.bordered)
 				}
-				.buttonStyle(.bordered)
 			}
 			.padding(.horizontal)
 		}
