@@ -25,29 +25,11 @@ struct ExamView : View {
 			
 			Spacer()
 			
-			HStack {
-				Button {
-					if currentExam != nil {
-						navigationPath.append(Route.Web)
-					}
-				} label: {
-					HStack {
-						Image(systemName: "book")
-						Text("Geeky Medics")
-					}
-				}
-				.buttonStyle(.bordered)
-				
-				Button {
-					updateExam()
-				} label: {
-					HStack {
-						Image(systemName: "arrow.clockwise")
-						Text("Refresh")
-					}
-				}
-				.buttonStyle(.borderedProminent)
-			}
+			ButtonLayout(
+				navigationPath: $navigationPath,
+				currentExam: currentExam,
+				updateExam: updateExam
+			)
 		}
 		.navigationTitle("OSCE Jar")
 		.navigationBarTitleDisplayMode(.inline)
@@ -57,6 +39,59 @@ struct ExamView : View {
 			} label: {
 				Image(systemName: "gear")
 			}
+		}
+	}
+	
+}
+
+private struct ButtonLayout: View {
+	
+	@Binding var navigationPath: NavigationPath
+	let currentExam: Exam?
+	let updateExam: () -> Void
+	
+	var body: some View {
+		VStack {
+			Button {
+				updateExam()
+			} label: {
+				HStack {
+					Image(systemName: "arrow.clockwise")
+					Text("Refresh")
+						.frame(maxWidth: .infinity)
+				}
+			}
+			.padding(.horizontal)
+			.buttonStyle(.borderedProminent)
+			
+			HStack {
+				Button {
+					if currentExam != nil {
+						navigationPath.append(Route.Web)
+					}
+				} label: {
+					HStack {
+						Image(systemName: "book")
+						Text("Guide")
+							.frame(maxWidth: .infinity)
+					}
+				}
+				.buttonStyle(.bordered)
+				
+				Button {
+					if currentExam != nil {
+						navigationPath.append(Route.Web)
+					}
+				} label: {
+					HStack {
+						Image(systemName: "checkmark.circle")
+						Text("Mark Scheme")
+							.frame(maxWidth: .infinity)
+					}
+				}
+				.buttonStyle(.bordered)
+			}
+			.padding(.horizontal)
 		}
 	}
 	

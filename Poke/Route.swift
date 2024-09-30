@@ -8,6 +8,6 @@
 import Foundation
 
 enum Route {
-	case Root, Settings, Web
+	case Root, Settings, Web, MarkScheme
 }
 

@@ -26,29 +26,7 @@ struct ContentView: View {
 					alignment: .center
 				)
 				.navigationDestination(for: Route.self) { route in
-					switch route {
-					case .Settings:
-						SettingsView()
-					case .Web:
-						AppWebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
-							.navigationTitle(currentExam?.name ?? "Geeky Medics")
-							.navigationBarTitleDisplayMode(.inline)
-							.ignoresSafeArea()
-					default:
-						ExamView(
-							navigationPath: $navigationPath,
-							currentExam: currentExam,
-							updateExam: { updateCurrentExam() }
-						)
-						.navigationBarBackButtonHidden()
-						.onAppear {
-							if isFirstShow {
-								updateCurrentExam()
-							}
-							
-							isFirstShow = false
-						}
-					}
+					navigateToRoute(route)
 				}
 		}
 		.onAppear {
@@ -70,6 +48,37 @@ struct ContentView: View {
 		print("New Exam \n- Name: \(String(describing: newExam?.name)) \n- Geeky Medics Link: \(String(describing: newExam?.geekyMedicsLink)) \n- Intimate Exam: \(String(describing: newExam?.isIntimate))")
 		
 		currentExam = newExam
+	}
+	
+	@ViewBuilder
+	func navigateToRoute(_ route: Route) -> some View {
+		switch route {
+		case .Root:
+			ExamView(
+				navigationPath: $navigationPath,
+				currentExam: currentExam,
+				updateExam: { updateCurrentExam() }
+			)
+			.navigationBarBackButtonHidden()
+			.onAppear {
+				if isFirstShow {
+					updateCurrentExam()
+				}
+				isFirstShow = false
+			}
+		case .Settings:
+			SettingsView()
+		case .Web:
+			AppWebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
+				.navigationTitle(currentExam?.name ?? "Geeky Medics")
+				.navigationBarTitleDisplayMode(.inline)
+				.ignoresSafeArea()
+		case .MarkScheme:
+			AppWebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
+				.navigationTitle(currentExam?.name ?? "Geeky Medics")
+				.navigationBarTitleDisplayMode(.inline)
+				.ignoresSafeArea()
+		}
 	}
 }
 
