@@ -44,7 +44,7 @@ struct ExamView : View {
 	
 }
 
-private struct ButtonLayout: View {
+fileprivate struct ButtonLayout: View {
 	
 	@Binding var navigationPath: NavigationPath
 	let currentExam: Exam?
@@ -94,8 +94,22 @@ private struct ButtonLayout: View {
 				}
 			}
 			.padding(.horizontal)
+			.safeAreaPadding(.bottom)
 		}
 	}
 	
+}
+
+#Preview {
+	ExamView(
+		navigationPath: .constant(NavigationPath()),
+		currentExam: Exam(
+			name: "Preview Exam",
+			geekyMedicsLink: "guidelink",
+			markSchemeLink: "checklistlink",
+			isIntimate: false
+		),
+		updateExam: {}
+	)
 }
 
