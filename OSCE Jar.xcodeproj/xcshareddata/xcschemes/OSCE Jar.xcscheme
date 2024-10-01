@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "41EA4CB32CA72DB4002785DC"
-               BuildableName = "Poke.app"
-               BlueprintName = "Poke"
-               ReferencedContainer = "container:Poke.xcodeproj">
+               BuildableName = "OSCE Jar.app"
+               BlueprintName = "OSCE Jar"
+               ReferencedContainer = "container:OSCE Jar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "41EA4CB32CA72DB4002785DC"
-            BuildableName = "Poke.app"
-            BlueprintName = "Poke"
-            ReferencedContainer = "container:Poke.xcodeproj">
+            BuildableName = "OSCE Jar.app"
+            BlueprintName = "OSCE Jar"
+            ReferencedContainer = "container:OSCE Jar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "41EA4CB32CA72DB4002785DC"
-            BuildableName = "Poke.app"
-            BlueprintName = "Poke"
-            ReferencedContainer = "container:Poke.xcodeproj">
+            BuildableName = "OSCE Jar.app"
+            BlueprintName = "OSCE Jar"
+            ReferencedContainer = "container:OSCE Jar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

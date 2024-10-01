@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct RootView: View {
 	
 	@AppStorage(Settings.HideIntimateExams.key) private var excludeIntimateExams: Bool = false
 	@Environment(\.modelContext) private var context
@@ -80,5 +80,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    RootView()
 }

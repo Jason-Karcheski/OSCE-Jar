@@ -9,13 +9,13 @@ import SwiftUI
 import SwiftData
 
 @main
-struct PokeApp: App {
+struct OsceJarApp: App {
 	
 	@AppStorage("isFirstLaunch") private var isFirstLaunch: Bool = true
 	
     var body: some Scene {
 		WindowGroup {
-            ContentView()
+            RootView()
         }
 		.modelContainer(ExamContainer.create(shouldCreateDefaults: &isFirstLaunch))
     }

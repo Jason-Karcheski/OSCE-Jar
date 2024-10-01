@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		41EA4CB42CA72DB4002785DC /* Poke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EA4CB42CA72DB4002785DC /* OSCE Jar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSCE Jar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		41EA4CB62CA72DB4002785DC /* Poke */ = {
+		41EA4CB62CA72DB4002785DC /* OSCE Jar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Poke;
+			path = "OSCE Jar";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		41EA4CAB2CA72DB4002785DC = {
 			isa = PBXGroup;
 			children = (
-				41EA4CB62CA72DB4002785DC /* Poke */,
+				41EA4CB62CA72DB4002785DC /* OSCE Jar */,
 				41EA4CB52CA72DB4002785DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		41EA4CB52CA72DB4002785DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41EA4CB42CA72DB4002785DC /* Poke.app */,
+				41EA4CB42CA72DB4002785DC /* OSCE Jar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41EA4CB32CA72DB4002785DC /* Poke */ = {
+		41EA4CB32CA72DB4002785DC /* OSCE Jar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41EA4CC22CA72DB5002785DC /* Build configuration list for PBXNativeTarget "Poke" */;
+			buildConfigurationList = 41EA4CC22CA72DB5002785DC /* Build configuration list for PBXNativeTarget "OSCE Jar" */;
 			buildPhases = (
 				41EA4CB02CA72DB4002785DC /* Sources */,
 				41EA4CB12CA72DB4002785DC /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				41EA4CB62CA72DB4002785DC /* Poke */,
+				41EA4CB62CA72DB4002785DC /* OSCE Jar */,
 			);
-			name = Poke;
+			name = "OSCE Jar";
 			packageProductDependencies = (
 			);
 			productName = Poke;
-			productReference = 41EA4CB42CA72DB4002785DC /* Poke.app */;
+			productReference = 41EA4CB42CA72DB4002785DC /* OSCE Jar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 41EA4CAF2CA72DB4002785DC /* Build configuration list for PBXProject "Poke" */;
+			buildConfigurationList = 41EA4CAF2CA72DB4002785DC /* Build configuration list for PBXProject "OSCE Jar" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41EA4CB32CA72DB4002785DC /* Poke */,
+				41EA4CB32CA72DB4002785DC /* OSCE Jar */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +253,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Poke/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OSCE Jar/Preview Content\"";
 				DEVELOPMENT_TEAM = C558CC69Q2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -289,7 +289,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Poke/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OSCE Jar/Preview Content\"";
 				DEVELOPMENT_TEAM = C558CC69Q2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41EA4CAF2CA72DB4002785DC /* Build configuration list for PBXProject "Poke" */ = {
+		41EA4CAF2CA72DB4002785DC /* Build configuration list for PBXProject "OSCE Jar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41EA4CC02CA72DB5002785DC /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41EA4CC22CA72DB5002785DC /* Build configuration list for PBXNativeTarget "Poke" */ = {
+		41EA4CC22CA72DB5002785DC /* Build configuration list for PBXNativeTarget "OSCE Jar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41EA4CC32CA72DB5002785DC /* Debug */,
