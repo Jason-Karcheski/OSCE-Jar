@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Route {
-	case Root, Settings, Web, MarkScheme
+enum Route: Hashable {
+	case Root, Settings, Web(url: String?)
 }
 

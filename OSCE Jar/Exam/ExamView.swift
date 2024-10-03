@@ -67,7 +67,7 @@ fileprivate struct ButtonLayout: View {
 			HStack {
 				Button {
 					if currentExam != nil {
-						navigationPath.append(Route.Web)
+						navigationPath.append(Route.Web(url: currentExam?.geekyMedicsLink))
 					}
 				} label: {
 					HStack {
@@ -81,7 +81,7 @@ fileprivate struct ButtonLayout: View {
 				if currentExam?.geekyMedicsLink != currentExam?.markSchemeLink {
 					Button {
 						if currentExam != nil {
-							navigationPath.append(Route.MarkScheme)
+							navigationPath.append(Route.Web(url: currentExam?.markSchemeLink))
 						}
 					} label: {
 						HStack {

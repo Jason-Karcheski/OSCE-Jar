@@ -67,13 +67,9 @@ struct RootView: View {
 			}
 		case .Settings:
 			SettingsView()
-		case .Web:
-			WebView(url: URL(string: currentExam?.geekyMedicsLink ?? "https://www.google.com")!)
-				.navigationTitle(currentExam?.name ?? "Geeky Medics")
-				.modifier(WebViewStyle())
-		case .MarkScheme:
-			WebView(url: URL(string: currentExam?.markSchemeLink ?? "https://www.google.com")!)
-				.navigationTitle(currentExam?.name ?? "Geeky Medics")
+		case .Web(let urlString):
+			WebView(urlString: urlString)
+				.navigationTitle(currentExam?.name ?? WebView.defaultTitle)
 				.modifier(WebViewStyle())
 		}
 	}
